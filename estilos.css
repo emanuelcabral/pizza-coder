@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: orange;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    color: #fff;
+}
+.logo span{
+    color: #000;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra a:hover{
+    color: #333;
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #333;
+    background-image: url(img/pizza1.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.call{
+    color: #fff;
+    width: 70%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid orange;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+
+h1{
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.call p{
+    margin-bottom: 30px;
+}
+
+.call a{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.call a:hover{
+    background-color: #333;
+    border: 2px solid orange;
+}
+h2{
+    text-align: center;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.sec{
+    height: 700px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.item{
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    
+}
+.item2{
+    line-height: 20px;
+    order: 0;
+    flex-basis: 180px;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+
+}
+.item4{
+    line-height: 180px;
+    order: -4;
+    flex-basis: 180px;
+    /* flex-grow: 4; */
+    flex-shrink: 4;
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 15px;
+}
+footer i{
+    font-size: 50px;
+    letter-spacing: 20px;
+    color: orange;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 5px #fff;
+}
